@@ -10,7 +10,7 @@ export class LoginPage extends BasePage {
 
     constructor(page: Page) {
         // We pass the real URL to the BasePage
-        super(page, 'https://www.saucedemo.com/');
+        super(page, '/');
 
         this.usernameInput = page.locator('[data-test="username"]');
         this.passwordInput = page.locator('[data-test="password"]');
